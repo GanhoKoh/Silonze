@@ -8,19 +8,17 @@
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/nav.css"/>
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("htmls/header.html");
+        })
+    </script>
 </head>
 <body>
     <!-- ヘッダー -->
-    <header id="header">
-        <h1>
-            <a href="./index.html">
-                <span class="sil_txt">Sil</span>
-                <span class="ronze_txt">ronze</span>
-                <img src="images/silvermedal.png" alt="シルバーメダル">
-                <img src="images/bronzemedal.png"　alt="ブロンズメダル">
-            </a>
-        </h1>
-    </header>
+    <header id="header"></header>
 
     <!-- 左ナビゲーションバー -->
     <nav id="nav">
