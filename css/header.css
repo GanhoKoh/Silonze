@@ -1,0 +1,18 @@
+/*
+    header部分のcss
+*/
+#header {
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+.sil_txt {
+    color: lightslategray;
+}
+
+.ronze_txt {
+    color: brown;
+}
