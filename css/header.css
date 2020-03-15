@@ -3,11 +3,14 @@
 */
 #header {
     border-bottom: 2px solid black;
-    text-decoration: none;
 }
 
 h1 {
     font-family: fantasy;
+}
+
+a {
+    text-decoration: none;
 }
 
 .sil_txt {
