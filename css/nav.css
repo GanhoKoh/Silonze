@@ -1,7 +1,7 @@
 /*
     ナビゲーション部分のcss
 */
-#nav {
+nav {
     float: left;
     margin: 10px;
     width: auto;
